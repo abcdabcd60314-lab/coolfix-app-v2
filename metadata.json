@@ -1,0 +1,9 @@
+{
+  "name": "CoolFix - 專業冷氣維修平台",
+  "description": "提供專業、透明、快速的冷氣清洗、維修與安裝服務，包含 AI 智能診斷與即時進度追蹤。",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": []
+}
