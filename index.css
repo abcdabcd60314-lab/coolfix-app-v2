@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Noto Sans TC", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, monospace;
+
+  --color-brand-primary: #2E86AB;
+  --color-brand-secondary: #00A896;
+  --color-brand-background: #FAF9F6;
+  --color-brand-text: #2D2D2D;
+
+  --shadow-cool: 0 4px 20px rgba(45, 45, 45, 0.08);
+}
+
+@layer base {
+  body {
+    @apply bg-brand-background text-brand-text;
+  }
+}
